@@ -1,0 +1,54 @@
+@import "_plugins.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    box-sizing: border-box;
+}
+.btn{
+    padding: 6px 10px;
+    border-radius: 0.3rem;
+}
+.transition-150{
+    transition: 0.2s ease-in-out;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.config-border-radius{
+    border-radius: 0.5rem;
+}
+.config-border-radius-card{
+    border-radius: 0.8rem;
+}
+.config-border-radius-input{
+    border-radius: 0.3rem;
+}
+.config-input-padding-search{
+    padding: 15px 10px;
+}
+.b-o-none{
+    outline: none;
+}
+.vc-day{
+    padding: 7px!important;
+}
+.el-date-table .prev-month, .next-month {
+    /*display: none !important;*/
+}
+.date-box {
+    padding: 16px 0 !important;
+}
+.date-box .date {
+    margin-bottom: 4px !important;
+}
+.bg-blue{
+    background-color: #11b1c9!important;
+}
+.el-button--primary{
+    background-color: #11b1c9!important;
+    border-color: #11b1c9!important;
+}
+.el-switch.is-checked .el-switch__core{
+    background-color: #11b1c9!important;
+}

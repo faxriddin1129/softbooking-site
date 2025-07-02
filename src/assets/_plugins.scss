@@ -1,0 +1,16 @@
+.el-tabs {
+  &__content {
+    display: none;
+  }
+  &__nav {
+    width: 100%;
+  }
+  &__item {
+    width: 100%;
+  }
+}
+.error {
+  .el-input__wrapper, .el-select__wrapper {
+    border: 1px solid red;
+  }
+}
