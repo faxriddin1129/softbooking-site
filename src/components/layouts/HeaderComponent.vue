@@ -41,7 +41,7 @@ import {useConfigStore} from "@/stores/config";
 import {useAuthStore} from "@/stores/auth";
 
 const authStore = useAuthStore()
-const darkMode = ref(false)
+const darkMode = ref(true)
 const configStore = useConfigStore()
 const toggleTheme = () => {
   darkMode.value = !darkMode.value
@@ -58,8 +58,8 @@ const toggleTheme = () => {
 
 
 if (!localStorage.getItem('mode')) {
-  localStorage.setItem('mode','light')
-  darkMode.value = false
+  localStorage.setItem('mode','dark')
+  darkMode.value = true
 }
 
 if (localStorage.getItem('mode') === 'dark') {
@@ -75,7 +75,7 @@ if (localStorage.getItem('mode') === 'light') {
   darkMode.value = false
 }
 
-configStore.mode = localStorage.getItem('mode') || 'light'
+configStore.mode = localStorage.getItem('mode') || 'dark'
 
 </script>
 <style scoped>
