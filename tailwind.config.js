@@ -10,7 +10,7 @@ export default {
       colors:{
         white:{
           DEFAULT:'#fff',
-          layout:'#11b1c9',
+          layout:'#1da8e8',
           card:'#F1F2F4',
         },
         black:{
@@ -22,12 +22,12 @@ export default {
           card: '#121b29',
         },
         blue:{
-          DEFAULT: '#11b1c9',
+          DEFAULT: '#1da8e8',
         },
         theme:{
-          DEFAULT: '#11b1c9',
+          DEFAULT: '#1da8e8',
           bg: '#320071',
-          btn: '#1cbad1',
+          btn: '#1da8e8',
         }
       }
     },

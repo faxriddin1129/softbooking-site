@@ -61,7 +61,7 @@
 
             <div class="flex items-center justify-between mt-8">
               <button
-                  class="bg-blue text-white px-10 config-border-radius-input py-2 w-full"
+                  class="bg-theme text-white px-10 config-border-radius-input py-2 w-full"
               >
                 {{ btnText }}
               </button>

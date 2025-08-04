@@ -77,11 +77,8 @@
             </div>
 
             <div class="col-span-12">
-              <button id="saveUpdateBtn" @click="saveUserInfo" type="button" class="bg-blue config-border-radius px-10 py-2 text-white">{{btnText}}</button>
+              <button id="saveUpdateBtn" @click="saveUserInfo" type="button" class="bg-theme config-border-radius px-10 py-2 text-white">{{btnText}}</button>
             </div>
-
-
-
 
           </div>
           
@@ -143,7 +140,7 @@
               <ul>
                 <li class="mb-1"><a href="mailto:info@softbooking.uz" class="flex gap-1 items-center"> <Mail :size="16"/> <span>info@softbooking.uz</span> </a></li>
                 <li class="mb-1"><a href="mailto:sale@softbooking.uz" class="flex gap-1 items-center"> <Mail :size="16"/> <span>sale@softbooking.uz</span> </a></li>
-                <li class="mb-1"><a href="tel:+998772650929" class="flex gap-1 items-center"> <Phone :size="16"/> <span>77 265 09 29</span> </a></li>
+<!--                <li class="mb-1"><a href="tel:+998772650929" class="flex gap-1 items-center"> <Phone :size="16"/> <span>77 265 09 29</span> </a></li>-->
                 <li class="mb-1"><a target="_blank" href="https://t.me/help_softbooking" class="flex gap-1 items-center"><Send :size="16"/> <span>@help_softbooking</span> </a></li>
                 <li class="text-center"><a  target="_blank" class="text-blue" href="/public_offer_softbooking.pdf">Публичная оферта</a></li>
                 <li class="text-center"><router-link class="text-blue" to="/privacy">{{ $t("29") }}</router-link></li>

@@ -367,4 +367,6 @@ const downloadPDF = async () => {
 
 document.title = t("36") + " #" + route.query.id;
 </script>
-<style scoped></style>
+<style scoped>
+
+</style>
