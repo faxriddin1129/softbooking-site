@@ -5,25 +5,20 @@
       <div class="grid-cols-12 grid">
 
         <div class="col-span-12 md:col-span-3 mb-4">
-          <div class="flex gap-2 items-center justify-center">
+          <div class="flex gap-2 items-center justify-center mb-4">
             <router-link to="/">
               <div class="logo">
-                <img v-if="configStore.mode !== 'dark' " src="/logo/svg/light.svg" alt="softbooking.uz">
-                <img v-else src="/logo/svg/logo-blue.svg" alt="softbooking.uz">
+                <img v-if="configStore.mode !== 'dark' " src="/img/lg_2.svg" alt="travelist.uz">
+                <img v-else src="/img/lg_1.svg" alt="travelist.uz">
               </div>
-            </router-link>
-          </div>
-          <div>
-            <router-link to="/">
-              <div class="comp text-center mb-4 font-bold uppercase">SOFTBOOKING</div>
             </router-link>
           </div>
           <div class="flex gap-2 mt-1 justify-center">
             <a>
-              <img class="footer-mob-app" src="/img/android.png" alt="softbooking.uz">
+              <img class="footer-mob-app" src="/img/android.png" alt="travelist.uz">
             </a>
             <a>
-              <img class="footer-mob-app" src="/img/ios.png" alt="softbooking.uz">
+              <img class="footer-mob-app" src="/img/ios.png" alt="travelist.uz">
             </a>
           </div>
         </div>
@@ -32,9 +27,9 @@
           <div>
             <h3 class="mb-4 font-bold uppercase">{{$t('contact')}}</h3>
             <ul>
-              <li class="mb-1"><a href="mailto:info@softbooking.uz" class="flex gap-1 items-center"> <Mail :size="16"/> <span>info@softbooking.uz</span> </a></li>
-              <li class="mb-1"><a href="mailto:sale@softbooking.uz" class="flex gap-1 items-center"> <Mail :size="16"/> <span>sale@softbooking.uz</span> </a></li>
-              <li class="mb-1"><a target="_blank" href="https://t.me/help_softbooking" class="flex gap-1 items-center"><Send :size="16"/> <span>@help_softbooking</span> </a></li>
+              <li class="mb-1"><a href="mailto:info@travelist.com.tr" class="flex gap-1 items-center"> <Mail :size="16"/> <span>info@travelist.com.tr</span> </a></li>
+              <li class="mb-1"><a href="mailto:it@travelist.com.tr" class="flex gap-1 items-center"> <Mail :size="16"/> <span>it@travelist.com.tr</span> </a></li>
+              <li class="mb-1"><a target="_blank" href="https://t.me/help_travelist" class="flex gap-1 items-center"><Send :size="16"/> <span>@help_travelist</span> </a></li>
             </ul>
           </div>
         </div>
@@ -58,13 +53,13 @@
               <h6 class="font-bold uppercase">{{$t('pay_types')}}</h6>
               <div class="flex justify-center items-center">
                 <div class="pay-logo">
-                  <img src="/img/uscard.png" alt="softbooking.uz">
+                  <img src="/img/uscard.png" alt="travelist.uz">
                 </div>
                 <div class="pay-logo">
-                  <img src="/img/visa.png" alt="softbooking.uz">
+                  <img src="/img/visa.png" alt="travelist.uz">
                 </div>
                 <div class="pay-logo">
-                  <img src="/img/master.svg" class="max-h-[30px] max-w-[50px]" alt="softbooking.uz">
+                  <img src="/img/master.svg" class="max-h-[30px] max-w-[50px]" alt="travelist.uz">
                 </div>
               </div>
             </div>
@@ -74,7 +69,7 @@
               <h6 class="mt-4 font-bold uppercase">{{$t('57')}}</h6>
               <div class="flex justify-center items-center">
                 <div class="pay-logo">
-                  <img src="/img/bot.png" alt="softbooking.uz">
+                  <img src="/img/bot.png" alt="travelist.uz">
                 </div>
               </div>
             </a>
@@ -88,11 +83,11 @@
     <div class="md:px-16 px-2">
       <div class="mt-8 border-t border-gray-700 py-3 flex flex-col md:flex-row justify-between items-center">
         <div class="text-center md:text-left mb-4 md:mb-0">
-          © 2024 softbooking.uz — <router-link class="text-white" to="/privacy">{{$t('29')}}</router-link> — <a  target="_blank" class="text-white" href="/public_offer_softbooking.pdf">Публичная оферта</a>
+          © 213 travelist.uz — <router-link class="text-white" to="/privacy">{{$t('29')}}</router-link> — <a  target="_blank" class="text-white" href="/public_offer_softbooking.pdf">Публичная оферта</a>
         </div>
         <div class="flex space-x-4">
-          <a href="https://instagram.com/softbookinguz/" target="_blank" class="a">Instagram</a><a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://t.me/softbooking" target="_blank" class="a">Telegram</a><a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://instagram.com/travelist/" target="_blank" class="a">Instagram</a><a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://t.me/travelist" target="_blank" class="a">Telegram</a><a href="#"><i class="fa-brands fa-telegram"></i></a>
         </div>
       </div>
     </div>

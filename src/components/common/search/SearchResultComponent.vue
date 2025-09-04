@@ -11,7 +11,7 @@
             <img
                 class="logo-air"
                 :src="data.offers[0].avia_company.logo_mini"
-                alt="SOFTBOOKING"
+                alt="TRAVELIST"
             />
           </div>
           <div class="dark:text-gray-300 transition-150 text-[13px] md:text-[16px]">

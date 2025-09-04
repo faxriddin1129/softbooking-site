@@ -47,8 +47,8 @@
     <h2>{{$t('privacy.sections.contact.title')}}</h2>
     <p class="px-3">{{$t('privacy.sections.contact.content')}}</p>
     <ul class="list-disc mx-10 mb-4">
-      <li>{{$t('privacy.sections.contact.item_1')}} info@softbooking.uz</li>
-      <li>{{$t('privacy.sections.contact.item_2')}} sale@softbooking.uz</li>
+      <li>{{$t('privacy.sections.contact.item_1')}} info@travelist.uz</li>
+      <li>{{$t('privacy.sections.contact.item_2')}} sale@travelist.uz</li>
       <li>{{$t('privacy.sections.contact.item_3')}}</li>
     </ul>
 

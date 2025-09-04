@@ -56,7 +56,7 @@
                             <img
                                 :src="item.avia_company.logo_mini"
                                 class="w-[35px] h-[35px] rounded-full"
-                                alt="SOFTBOOKING"
+                                alt="TRAVELIST"
                             />
                           </div>
                           <div class="leading-4">
